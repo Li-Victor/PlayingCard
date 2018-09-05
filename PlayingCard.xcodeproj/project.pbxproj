@@ -14,6 +14,7 @@
 		57B2A5B7212E2CA800E26E47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B2A5B5212E2CA800E26E47 /* LaunchScreen.storyboard */; };
 		57B2A5C1212E2D2800E26E47 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B2A5C0212E2D2800E26E47 /* PlayingCard.swift */; };
 		57B2A5C3212E309B00E26E47 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B2A5C2212E309B00E26E47 /* PlayingCardDeck.swift */; };
+		57F8AEE1213F881600022A43 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F8AEE0213F881600022A43 /* PlayingCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		57B2A5B8212E2CA800E26E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57B2A5C0212E2D2800E26E47 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
 		57B2A5C2212E309B00E26E47 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+		57F8AEE0213F881600022A43 /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +60,13 @@
 		57B2A5AB212E2CA700E26E47 /* PlayingCard */ = {
 			isa = PBXGroup;
 			children = (
-				57B2A5C2212E309B00E26E47 /* PlayingCardDeck.swift */,
-				57B2A5C0212E2D2800E26E47 /* PlayingCard.swift */,
-				57B2A5BF212E2D0C00E26E47 /* Supporting Files */,
 				57B2A5AE212E2CA700E26E47 /* ViewController.swift */,
+				57F8AEE0213F881600022A43 /* PlayingCardView.swift */,
 				57B2A5B0212E2CA700E26E47 /* Main.storyboard */,
+				57B2A5C0212E2D2800E26E47 /* PlayingCard.swift */,
+				57B2A5C2212E309B00E26E47 /* PlayingCardDeck.swift */,
 				57B2A5B3212E2CA800E26E47 /* Assets.xcassets */,
+				57B2A5BF212E2D0C00E26E47 /* Supporting Files */,
 				57B2A5B8212E2CA800E26E47 /* Info.plist */,
 			);
 			path = PlayingCard;
@@ -152,6 +155,7 @@
 				57B2A5AF212E2CA700E26E47 /* ViewController.swift in Sources */,
 				57B2A5C3212E309B00E26E47 /* PlayingCardDeck.swift in Sources */,
 				57B2A5C1212E2D2800E26E47 /* PlayingCard.swift in Sources */,
+				57F8AEE1213F881600022A43 /* PlayingCardView.swift in Sources */,
 				57B2A5AD212E2CA700E26E47 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
